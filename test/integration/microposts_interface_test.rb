@@ -52,3 +52,4 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
     assert_match "1 micropost", response.body
   end
 end
+
